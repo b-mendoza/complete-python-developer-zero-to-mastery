@@ -1,5 +1,10 @@
-def main():
-    print("Hello from our-first-python-program!")
+from typing import Any
+
+
+def main() -> None:
+    name: Any = "Bryan Mendoza"
+
+    print(f"{name}")
 
 
 if __name__ == "__main__":
