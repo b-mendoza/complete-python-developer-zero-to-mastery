@@ -1,7 +1,7 @@
 {
   "json.schemas": [
     {
-      "fileMatch": ["/pyrightconfig.json"],
+      "fileMatch": ["*.pyrightconfig.json"],
       "url": "https://raw.githubusercontent.com/microsoft/pyright/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json"
     }
   ]
