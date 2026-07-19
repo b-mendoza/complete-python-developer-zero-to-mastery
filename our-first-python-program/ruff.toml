@@ -1,29 +1,78 @@
-# Python version Ruff should assume.
-target-version = "py312"
+target-version = "py314"
+preview = false
+unsafe-fixes = false
+show-fixes = true
 
 [format]
-# Format code examples inside docstrings.
 docstring-code-format = true
 
 [lint]
-# Rule families to enable.
 select = [
-    "E",   # pycodestyle errors
-    "F",   # pyflakes
-    "I",   # import sorting
-    "B",   # bugbear
-    "UP",  # pyupgrade
-    "SIM", # simplify
-    "RUF", # ruff-native rules
-    "A",   # builtin shadowing
-    "C4",  # comprehensions
-    "DTZ", # datetime/timezone issues
-    "ICN", # import conventions
-    "PIE", # miscellaneous improvements
-    "PT",  # pytest style
-    "RET", # return cleanup
-    "TC",  # type-checking imports
+    # Core correctness and formatting-adjacent checks.
+    "E",
+    "F",
+    "W",
+    "I",
+
+    # Common defects and exception handling.
+    "B",
+    "BLE",
+    "C4",
+    "DTZ",
+    "RSE",
+    "S",
+
+    # Modern and idiomatic Python.
+    "UP",
+    "SIM",
+    "PIE",
+    "RET",
+    "FLY",
+    "FURB",
+    "PERF",
+    "PTH",
+    "RUF",
+
+    # APIs, names, imports, logging, and typing.
+    "A",
+    "ANN",
+    "ARG",
+    "ASYNC",
+    "G",
+    "ICN",
+    "LOG",
+    "N",
+    "TC",
+
+    # High-signal subset of Pylint-derived checks.
+    "PLE",
+    "PLW",
+
+    # Testing and exception-style policy.
+    "PT",
+    "TRY",
 ]
 
-# Report unused imports, but don't auto-delete them on fix.
+ignore = [
+    # Ruff formatter incompatibilities.
+    "E111",
+    "E114",
+    "E117",
+    "W191",
+
+    # Formatter uses line length as a target, not an absolute guarantee.
+    "E501",
+
+    # Opinionated exception-structure rules.
+    "TRY003",
+    "TRY300",
+    "TRY301",
+]
+
+# Keep reporting unused imports, but require manual review before deletion.
 unfixable = ["F401"]
+
+[lint.per-file-ignores]
+"**/tests/**/*.py" = [
+    "S101", # assert is expected in tests
+]
