@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "skills": {
+    "code-review-excellence": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
+      "computedHash": "0f585a4ad2f6d8353069ca9051c6f0e8865abb9d3a6a268d423784c3c3852962"
+    },
+    "committing-scoped-changes": {
+      "source": "b-mendoza/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/committing-scoped-changes/SKILL.md",
+      "computedHash": "713f2a023add8a5b956b412d5b3c017e77b15b584033303ac3563ec5eb218d82"
+    },
+    "diagnosing-root-causes": {
+      "source": "b-mendoza/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/diagnosing-root-causes/SKILL.md",
+      "computedHash": "06de33910aa3f3a5ad2b8ff3ba5d33aa183316fb95e25af049c20f393ffa4f44"
+    },
+    "executing-plans": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/executing-plans/SKILL.md",
+      "computedHash": "08604f93f2e38dd3575e5503c79cda5c623c78a8df0e472457ac5ef7a33f22b8"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "computedHash": "f361db4e15e6bfd562a9282b1dccda513910a50061f9e838ce017be9c69dde3f"
+    },
+    "grilling": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grilling/SKILL.md",
+      "computedHash": "368d3dd7251247c69f3656d93dc83c8f1577792eacac2111f1e7981db2ece49b"
+    },
+    "humanizer": {
+      "source": "blader/humanizer",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "71a65e340e413dc6828da29eff38d9e2c6868e93898303bd062a06bed9f95102"
+    },
+    "improving-test-suites": {
+      "source": "b-mendoza/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/improving-test-suites/SKILL.md",
+      "computedHash": "38ae1f88a4272570f34005e313be27aa6dcea9d903130a9e5c2687033aa9bc74"
+    },
+    "pr-creator": {
+      "source": "b-mendoza/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/pr-creator/SKILL.md",
+      "computedHash": "9da8e4b7f5842286964f57b49f4f811ff79cd429811bfd26717aa3855e7ca82a"
+    },
+    "receiving-code-review": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/receiving-code-review/SKILL.md",
+      "computedHash": "3f56080356c62e4f74a183d7371686babc661e41a952dc67a97c2c76fe8a9329"
+    },
+    "recency-guard": {
+      "source": "b-mendoza/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/recency-guard/SKILL.md",
+      "computedHash": "093ae00ea0f1f4a36c2b3d855e05e37fb82e2a35ee263931f750b91e78996ce6"
+    },
+    "refactoring-code": {
+      "source": "b-mendoza/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/refactoring-code/SKILL.md",
+      "computedHash": "ec6be32d3e068e8d2fabf8f58c3a3d95fa2c3575b6c758010d6fde06a3d64c3e"
+    },
+    "responding-to-pr-review-comments": {
+      "source": "b-mendoza/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/responding-to-pr-review-comments/SKILL.md",
+      "computedHash": "e8bd726334d8e0f4318a10fcf008e81c6a76bc54c472ff4d5fe20503f6072b55"
+    },
+    "review-pull-request": {
+      "source": "b-mendoza/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/review-pull-request/SKILL.md",
+      "computedHash": "a0aebc534f6320270721b822e74a7c7a1a180473e500f3bec71ac727f3be9495"
+    },
+    "rewriting-code-strictly": {
+      "source": "b-mendoza/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/rewriting-code-strictly/SKILL.md",
+      "computedHash": "eb13c689e71fee485ce912eb51f2312a157594cdb2619e5b81b7c8c83780f64d"
+    },
+    "subagent-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/subagent-driven-development/SKILL.md",
+      "computedHash": "aaeb6686111c76b3c38e09156fe18af44d73b324ee055e5cb0ab63dc776f216f"
+    },
+    "test-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "computedHash": "eee144aea35d783296d178017e9fe843c6d16cc8b240e106f5e50910f6caf329"
+    },
+    "validate-implementation-plan": {
+      "source": "b-mendoza/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/validate-implementation-plan/SKILL.md",
+      "computedHash": "b9c4118af23b87805dc5819cb59b7969c5ed9d0cb33eeec6e5184665d2cdf417"
+    },
+    "writing-plans": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/writing-plans/SKILL.md",
+      "computedHash": "b73b59d43c34c3fc225bfae419c458bb216af80df25fc0c545dfa7fd2a161722"
+    }
+  }
+}
