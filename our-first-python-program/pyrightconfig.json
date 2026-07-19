@@ -1,8 +1,16 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/pyright/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+  "$schema": "https://raw.githubusercontent.com/DetachHead/basedpyright/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+
+  "pythonVersion": "3.14",
+  "typeCheckingMode": "strict",
+
   "deprecateTypingAliases": true,
   "enableTypeIgnoreComments": false,
-  "pythonVersion": "3.14",
+
+  "reportAny": "error",
+  "reportExplicitAny": "error",
+  "reportIgnoreCommentWithoutRule": "error",
+
   "reportCallInDefaultInitializer": "error",
   "reportImplicitOverride": "error",
   "reportImplicitStringConcatenation": "error",
@@ -12,6 +20,5 @@
   "reportUninitializedInstanceVariable": "error",
   "reportUnnecessaryTypeIgnoreComment": "error",
   "reportUnreachable": "error",
-  "reportUnusedCallResult": "error",
-  "typeCheckingMode": "strict"
+  "reportUnusedCallResult": "error"
 }
