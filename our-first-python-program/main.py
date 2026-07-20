@@ -1,10 +1,7 @@
-from typing import Any
-
-
 def main() -> None:
-    name: Any = "Bryan Mendoza"
+    name = "Bryan Mendoza"
 
-    print(f"{name}")
+    print(name)
 
 
 if __name__ == "__main__":
